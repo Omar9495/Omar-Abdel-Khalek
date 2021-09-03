@@ -49,4 +49,17 @@ function qut_btu(){
 }
 
 
+//Write a program that allows the user to insert 2 integers then print the max
+
+var x = Number( prompt(" enter the first number")); 
+var y = Number( prompt(" enter the second number")); 
+
+ if (x > y) {
+    console.log(x);      
+    document.getElementById("integer").innerHTML =  "the max integer number is : " + x;     
+ }
+ else {
+    console.log(y);
+     document.getElementById("integer").innerHTML = "the max integer number is : " + y;    
+ }
 
