@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Omar Abdel Khalek" />
+    <meta name="keywords" content="Sign Up">
+    <meta name="description" content="signup">
+
+    <!-- Page Icon-->
+    <link rel="icon" href="image/user-3297.png">
+
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Page Style File -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body id="signupBody">
+    <div class="form-container">
+        <div id="signUp-form">
+
+            <!-- Form Body -->
+            <div id="signupModal">
+
+                <div id="modalForm">
+
+                    <h1 class="text-center mb-5">Sign Up</h1>
+
+                    <div class="form-group">
+                        <div class="form-group-input">
+                            <span style="font-family:Arial, FontAwesome">&#xf0e0;</span>
+                            <input id="emailInput" type="email" class="form-control" placeholder="Email Address" autocomplete="off">
+                        </div>
+                        <div id="emailInputAlert" class="alert alert-danger d-none">
+                            Invalid Email Address - For examole (xxxxxxxx@xxx.com)!
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-group-input">
+                            <span style="font-family:Arial, FontAwesome">&#xF007;</span>
+                            <input id="usernameInput" type="text" class="form-control d-block" placeholder="Username" autocomplete="off">
+                        </div>
+                        <div id="usernameInputAlert" class="alert alert-danger d-none">
+                            Username must start with capital letter for example (User85)
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="form-group-input">
+                            <span style="font-family:Arial, FontAwesome">&#xf023;</span>
+                            <input id="passwordInput" type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <div id="passwordInputAlert" class="alert alert-danger d-none ">
+                            Password must be 5 charachters at least Cannot contain special charachters
+                        </div>
+                    </div>
+
+                    <div id="msgAlert" class="text-center d-none mb-2">
+
+                    </div>
+
+                    <div>
+                        <a id="sgingupBtn" class="btn">Sign Up</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="signup-box">
+                <p>
+                    Already Have Account?
+                    <a id="gotosigninBtn" href="signin.html">Sign In Now!</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+ <!-- Bootstrap File-->
+ <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
