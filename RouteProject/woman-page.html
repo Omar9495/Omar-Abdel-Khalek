@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>About</title>
+    <title>Patient Type (Woman)</title>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Omar Abdel Khalek" />
-    <meta name="keywords" content="About" />
-    <meta name="description" content="about" />
+    <meta name="keywords" content="Woman Page">
+    <meta name="description" content="woman-page">
 
     <!-- Page Icon-->
-    <link rel="icon" href="image/logo.png" />
+    <link rel="icon" href="image/logo.png">
 
     <!-- Bootstrap File -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Page Style File -->
     <link rel="stylesheet" href="css/style.css">
@@ -32,15 +32,15 @@
                     <img class="img-fluid" src="image/logo.png" width="50px" height="50px" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link home" href="home-page.html">Home</a>
+                            <a class="nav-link home" href="home-page.html">Home <span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About  <span class="sr-only"></span></a>
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact-us.html">Contact Us</a>
@@ -55,102 +55,72 @@
     </header>
     <!------------------------ End Header ------------------------>
 
-    <section>
-        <div class="container">
-            <div class="content my-5 py-2">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <div class="content-info">
-                            <h2 class="main-color mb-4">Symploms Of Drinking Alarg Amount A Web Teb</h2>
-                            <p>
-                                Web Teb is one of the most consunmed beverages in the world, and some may..Coffee is one of the most consumed beverages in the world.
-                            </p>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-5">
-                        <div class="content-img">
-                            <img src="image/user-3297.png" class="img-fluid" />
-                        </div>
+    <div class="container">
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2>Hello <label for="name" class="form-label" id="names">Name</label> </h2>
+
+
+                <h4>Type of the case</h4>
+                <select class="form-select" aria-label="case">
+                    <option selected>None</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                <div class="mb-3">
+                    <label for="age" class="form-label">Age :</label>
+                    <input type="age" class="form-control" id="age" placeholder="">
+                </div>
+
+
+
+
+
+                <div class="mb-3">
+                    <label for="diseases" class="form-label">Any chronic diseases : </label> <br>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">No</label>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="content my-5 py-2">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="content-img">
-                            <img src="image/user-3297.png" class="img-fluid" />
-                        </div>
-                    </div>
-
-                    <div class="col-lg-7">
-                        <div class="content-info">
-                            <h2 class="main-color mb-4">Symploms Of Drinking Alarg Amount A Web Teb</h2>
-                            <p>
-                                Web Teb is one of the most consunmed beverages in the world, and some may..Coffee is one of the most consumed beverages in the world.
-                            </p>
-                        </div>
-                    </div>
-
+                <div class="mb-3">
+                    <label for="cdiseases" class="form-label">Chronic diseases :</label>
+                    <select class="form-select" aria-label="cdiseases">
+                        <option selected>None</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        
+                      </select>
                 </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section>
-        <div class="container">
-            <div class="content my-5 py-2">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <div class="content-info">
-                            <h2 class="main-color mb-4">Symploms Of Drinking Alarg Amount A Web Teb</h2>
-                            <p>
-                                Web Teb is one of the most consunmed beverages in the world, and some may..Coffee is one of the most consumed beverages in the world.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5">
-                        <div class="content-img">
-                            <img src="image/user-3297.png" class="img-fluid" />
-                        </div>
-                    </div>
+                <div class="mb-3">
+                    <label for="case-descr" class="form-label"> Case Description</label>
+                    <textarea class="form-control" id="case-descr" placeholder="Description ........" rows="3"></textarea>
                 </div>
-            </div>
-        </div>
-    </section>
 
 
-    <section>
-        <div class="container">
-            <div class="content my-5 py-2">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="content-img">
-                            <img src="image/user-3297.png" class="img-fluid" />
-                        </div>
-                    </div>
 
-                    <div class="col-lg-7">
-                        <div class="content-info">
-                            <h2 class="main-color mb-4">Symploms Of Drinking Alarg Amount A Web Teb</h2>
-                            <p>
-                                Web Teb is one of the most consunmed beverages in the world, and some may..Coffee is one of the most consumed beverages in the world.
-                            </p>
-                        </div>
-                    </div>
 
+                <div>
+                    <a id="sendBtn" class="btn">Send</a>
                 </div>
-            </div>
-        </div>
-    </section>
 
+
+
+
+
+
+
+
+            </div>
+        </section>
+    </div>
 
     <footer>
         <!-- Widgets -->
@@ -173,8 +143,8 @@
                                 <p>
                                     +1 (415) 876-3250<br>
                                     <a href="/cdn-cgi/l/email-protection#adc8c0ccc4c1eddec4d9c8c3ccc0c883cec2c0"><span
-                                        class="__cf_email__"
-                                        data-cfemail="7a1f171b13163a09130e1f141b171f54191517">[email&#160;protected]</span></a>
+                                            class="__cf_email__"
+                                            data-cfemail="7a1f171b13163a09130e1f141b171f54191517">[email&#160;protected]</span></a>
                                 </p>
                             </div>
                         </div>
@@ -239,8 +209,17 @@
 
 
 
+
+
+
+
+
+
+
+
     <!-- Bootstrap File-->
     <script src="js/bootstrap.min.js"></script>
+
 
 </body>
 
